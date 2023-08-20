@@ -9,7 +9,7 @@ import { fetchUser } from "@/lib/actions/user.actions";
 import { fetchCommunities } from "@/lib/actions/community.actions";
 
 async function Page({
-  searchParams,
+  searchParams, 
 }: {
   searchParams: { [key: string]: string | undefined };
 }) {
